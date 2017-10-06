@@ -1,0 +1,40 @@
+public class DataSet 
+{
+	
+	public DataSet(int integer)
+	{
+		
+		integer = smallest;
+		
+		integer = largest;
+		
+	}
+	
+	void addValue(int x)
+	{
+		
+		x = largest;
+		
+		x = smallest;
+		
+	}
+	
+	int getLargest()
+	{
+		
+		return Math.min(smallest, largest);
+		
+	}
+	
+	int getSmallest()
+	{
+		
+		return Math.max(largest, smallest);
+		
+	}
+	
+	int largest;
+	
+	int smallest;
+	
+}
